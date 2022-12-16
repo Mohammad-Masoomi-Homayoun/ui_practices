@@ -5,6 +5,10 @@ html {
 
 .container {
     background-color: #FFD58f;
+    display: flex;
+    /*flex-wrap: wrap-reverse;*/
+    /*flex-direction: row-reverse;*/
+    flex-flow: wrap-reverse row-reverse;
 }
 
 .item {
@@ -12,7 +16,9 @@ html {
     padding: 10px;
     text-shadow: 2px 2px 0 rgba(0,0,0, .1);
     box-shadow: 1px 1px 0 rgba(0,0,0, .1);
+    box-sizing: border-box;
     text-align: center;
     background-color: #fff;
-    margin: 3px;
+    margin: .2rem;
+    width: calc(33.333333% - .4rem);
 }
