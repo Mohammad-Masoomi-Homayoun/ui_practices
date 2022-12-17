@@ -8,7 +8,12 @@ html {
     display: flex;
     /*flex-wrap: wrap-reverse;*/
     /*flex-direction: row-reverse;*/
-    flex-flow: wrap-reverse row-reverse;
+    /*flex-flow: wrap-reverse row-reverse;*/
+    height: 100vh;
+    border: 5px solid cadetblue;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 
 .item {
@@ -20,5 +25,7 @@ html {
     text-align: center;
     background-color: #fff;
     margin: .2rem;
-    width: calc(33.333333% - .4rem);
+    /*width: calc(33.333333% - .4rem);*/
+    display: flex;
+    align-items: center;
 }
